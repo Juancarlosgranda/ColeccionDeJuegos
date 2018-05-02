@@ -13,6 +13,7 @@
 		7D48BBE820977B9E00CA60AB /* ColeccionDeJuegos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D48BBE620977B9E00CA60AB /* ColeccionDeJuegos.xcdatamodeld */; };
 		7D48BBEA20977B9E00CA60AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D48BBE920977B9E00CA60AB /* Assets.xcassets */; };
 		7D48BBED20977B9E00CA60AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D48BBEB20977B9E00CA60AB /* LaunchScreen.storyboard */; };
+		7DC95D8B209A6BE700E0B39E /* JuegosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC95D8A209A6BE700E0B39E /* JuegosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7D48BBE920977B9E00CA60AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D48BBEC20977B9E00CA60AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D48BBEE20977B9E00CA60AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DC95D8A209A6BE700E0B39E /* JuegosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JuegosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				7D48BBEB20977B9E00CA60AB /* LaunchScreen.storyboard */,
 				7D48BBEE20977B9E00CA60AB /* Info.plist */,
 				7D48BBE620977B9E00CA60AB /* ColeccionDeJuegos.xcdatamodeld */,
+				7DC95D8A209A6BE700E0B39E /* JuegosViewController.swift */,
 			);
 			path = ColeccionDeJuegos;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D48BBE220977B9E00CA60AB /* ViewController.swift in Sources */,
+				7DC95D8B209A6BE700E0B39E /* JuegosViewController.swift in Sources */,
 				7D48BBE020977B9E00CA60AB /* AppDelegate.swift in Sources */,
 				7D48BBE820977B9E00CA60AB /* ColeccionDeJuegos.xcdatamodeld in Sources */,
 			);
@@ -308,6 +312,7 @@
 				7D48BBF320977B9E00CA60AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
